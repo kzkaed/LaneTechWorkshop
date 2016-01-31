@@ -37,30 +37,32 @@ li a:hover:not(.active) {
   width: 90%;
 }
 
-.circle { 
-  background: #f6e164; 
-  border-radius: 100%; 
-  color: #888; 
-  height: 50px; 
+.shapes {}
+
+.circle {
+  background: #f6e164;
+  border-radius: 100%;
+  color: #888;
+  height: 50px;
   width: 50px;
 }
 
-.square { 
-  background: #429874; 
-  border-radius: 2px; 
-  height: 75px; 
-  margin: 0 auto; 
-  opacity: .8; 
-  width: 75px; 
+.square {
+  background: #429874;
+  border-radius: 2px;
+  height: 75px;
+  margin: 0 auto;
+  opacity: .8;
+  width: 75px;
 }
 
-.triangle{ 
-  background: #429874; 
-  border-radius: 2px; 
-  height: 75px; 
-  margin: 0 auto; 
-  opacity: .8; 
-  width: 75px; 
+.triangle{
+  background: #429874;
+  border-radius: 2px;
+  height: 75px;
+  margin: 0 auto;
+  opacity: .8;
+  width: 75px;
 }
 
 .shape4 {

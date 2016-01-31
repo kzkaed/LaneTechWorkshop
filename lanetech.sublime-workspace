@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"si",
+				"font-size"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"v",
+				"visibilityState"
+			],
+			[
 				"C",
 				"CODE_MATCH"
 			],
@@ -27,6 +39,51 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shapes.html",
+			"settings":
+			{
+				"buffer_size": 1257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "workshop.css",
+			"settings":
+			{
+				"buffer_size": 10558,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n\n\nbody {\n  background: #fff;\n  color: #333;\n  font-family: \"Arial\", sans-serif;\n  font-style: normal;\n  font-weight: 400;\n  padding: 0;\n  margin: 0;\n}\n\nul {\n  <!--list-style-type: none;-->\n  margin: 0;\n  padding: 2px;\n}\n\nli a {\n  display: block;\n  color: #000;\n  <!--padding: 8px 0 8px 16px;-->\n  <!--text-decoration: none;-->\n}\n\nli a.active {\n  background-color: #4CAF50;\n  color: white;\n}\n\nli a:hover:not(.active) {\n  background-color: green;\n  color: red;\n}\n\n.container {\n  margin: 0 auto;\n  max-width: 960px;\n  width: 90%;\n}\n\n.circle { \n  background: #f6e164; \n  border-radius: 100%; \n  color: #888; \n  height: 50px; \n  width: 50px;\n}\n\n.square { \n  background: #429874; \n  border-radius: 2px; \n  height: 75px; \n  margin: 0 auto; \n  opacity: .8; \n  width: 75px; \n}\n\n.triangle{ \n  background: #429874; \n  border-radius: 2px; \n  height: 75px; \n  margin: 0 auto; \n  opacity: .8; \n  width: 75px; \n}\n\n.shape4 {\n  padding: 10px;\n  background: red;\n  height: 100px;\n  width: 300px;\n  border-radius: 25px;\n}\n\n.shape5 {\n  border-radius: 25px;\n  background: #73AD21;\n  padding: 20px;\n  width: 200px;\n  height: 150px;\n}\n\n.shape6 {\n  border-radius: 100px;\n  background: #895467;\n  width: 100px;\n  height: 100px;\n  margin: -200px;\n  padding: 30px;\n  border: 2px solid #73AD21;\n}\n\n.happy {\n  color: #ff8000;\n}",
+			"file": "shapes.css",
+			"file_size": 1296,
+			"file_write_time": 1454273383000000,
+			"settings":
+			{
+				"buffer_size": 1299,
+				"line_ending": "Unix",
+				"name": "body {"
+			}
+		},
+		{
+			"file": "shapes.js",
+			"settings":
+			{
+				"buffer_size": 699,
+				"line_ending": "Unix",
+				"name": "function hideShape(number) {"
+			}
+		}
 	],
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
@@ -52,6 +109,7 @@
 	},
 	"file_history":
 	[
+		"/Users/kristin-8thlight/workspace/LaneTechWorkshop/workshop.js",
 		"/Users/kristin-8thlight/workspace/LaneTechWorkshop/nodes.css",
 		"/Users/kristin-8thlight/workspace/LaneTechWorkshop/nodes.js",
 		"/Users/kristin-8thlight/workspace/LaneTechWorkshop/index.html",
@@ -78,7 +136,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -92,8 +150,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"code",
+			"#",
+			"Roboto",
+			"center",
+			"#",
+			"center"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
@@ -109,8 +173,153 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 7389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7388,
+								7388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "shapes.html",
+					"settings":
+					{
+						"buffer_size": 1257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "workshop.css",
+					"settings":
+					{
+						"buffer_size": 10558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10064,
+								10064
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2736.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "shapes.css",
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "body {",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 952.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "shapes.js",
+					"settings":
+					{
+						"buffer_size": 699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								671
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function hideShape(number) {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -131,11 +340,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.585823780932,
 			1.0
 		],
 		"rows":
