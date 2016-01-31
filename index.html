@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="workshop.css" type="text/css">
+     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700|Roboto:400,700' rel='stylesheet' type='text/css'>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.js"></script>
+    <script src="workshop.js"></script>
+  </head>
+  <body>
+  	<header>
+	  <div class="container">
+    	<h1>Introduction to HTML, CSS and JavaScript</h1>
+    	<h2>(and a few principles of clean code and software quality)</h2>
+    	<ol>
+    		<li>Expressive names for variables, functions, or classes</li>
+    		<li>Short functions that do one thing and one thing only</li>
+    		<li>Reduce duplication by looking for patterns</li>
+    		<li>Write tests and refactor often</li>
+    	</ol>
+    	 <div class="row"><p>Today we will use <a href="https://codepen.io/signup/free">https://codepen.io/signup/free</a> to code up our HTML, CSS and JavaScript.</p><p> If we have time we will also explore writing a test for JavaScript with <a href="http://cyber-dojo.org/">http://cyber-dojo.org/</a> </p></div>
+      </div>
+  	</header>
+    
+    <section id="html">
+    	<div class="container">
+    		<div class="row">
+    		<h3>HTML : Hyper Text Markup Protocol</h3>
+    		<h4>1 : HTML</h4><p> HTML is a markup language for describing web documents (web pages). HTML stands for Hyper Text Markup Language. A markup language is a set of markup tags. HTML documents are described by HTML tags. Each HTML tag describes different document content.</p>
+    		</div>
+    		<div class="row">
+    		<h4>2: DOM </h4> The Document Object Model is a programming interface for HTML, XML and SVG documents. It provides a structured representation of the document (a tree) and it defines a way that the structure can be accessed from programs so that they can change the document structure, style and content.
+    		</div>
+    		<div class="row">
+    			<div class="column"><h4>html, head and body tags</h4><p>A base HTML DOM has these core tags. &mdash;&gt;</p><p>Notice the 'Tree' structure, where the head tag and body tag are contained inside the top level html tag. As you add more tags to the document, the structure becomes more nested, like branches of a tree. As a tree trunk moves up, branches extend from the trunk and branches from the branches before. </p><p>These are also called nodes. The parent node is the html tag. The child nodes are the head and body tags.</p></div>
+    		  <div class="column"><div class="example-box">
+    		  	<code>
+    				&lt;html&gt;<br>
+    				&nbsp;&lt;head&gt;
+    				&nbsp;&lt;/head&gt;<br>
+    				&nbsp;&lt;body&gt;
+    				&nbsp;&lt;/body&gt;<br>
+    				&lt;/html&gt;
+    		  		</code></div>
+    		  </div>
+
+            </div>
+            <div class="row"><p class="note">note: <a href="http://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags">http://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags</a></p></div>
+            <div class="row">
+    			<h4>What goes in the head tag</h4><p>The head tage contains metadata - information about the data contained in the html document. It is not seen when looking at the web page, but it may link the page to other files that control the look, feel and logic of the page. </p><p>In this example, the html document is 
+    			<ul>
+    				<li>linked to a 'stylesheet' file called 'workshop.css' of type 'text/css'.</li><li>and the javascript file (src) 'workshop.js' of type 'text/javscript' is included with the document. 
+    			</li><li>async in the script element has to do with how/when the javascript file is parsed. See note below. 
+    			</li>
+    		</ul></p>
+    		<p>The script element allows for javascript code to be contained inside the script element. However, it is generally preferable for it to be in a separate file. <span class="clean-code-tip">A clear separation of logic from markup keeps code clean.</span></p></div> <div class="row">
+    		 <div class="example-box">
+    		  	<code>
+    		  		&lt;html&gt;<br>
+    				&nbsp;&lt;head&gt;<br>
+     &nbsp;&nbsp;&lt;link rel="stylesheet" href="workshop.css" type="text/css"&gt;<br> 
+     &nbsp;&nbsp;&lt;script src="workshop.js" type="text/javascript" async&gt;&lt;/script&gt;<br> 
+    	&nbsp;&lt;/head&gt;<br>
+    				&nbsp;&lt;body&gt;
+    				&nbsp;&lt;/body&gt;<br>
+    				&lt;/html&gt;
+    		  		</code></div>
+    		  </div>
+
+    		  <div class="row"><p class="note">note:
+    		  	<a href="http://stackoverflow.com/questions/436411/where-is-the-best-place-to-put-script-tags-in-html-markup">http://stackoverflow.com/questions/436411/where-is-the-best-place-to-put-script-tags-in-html-markup</a></p>
+    		  </div>
+
+    
+            <div class="row">
+    			<h4>What goes in the body tag</h4><p></p>
+    		 <div class="example-box">
+    		  	<code>
+    				&lt;html&gt;<br>
+    				&nbsp;&lt;head&gt;
+    				&nbsp;&lt;/head&gt;<br>
+    				&nbsp;&lt;body&gt;
+    				&nbsp;&lt;/body&gt;<br>
+    				&lt;/html&gt;
+    		  		</code></div>
+    		  </div>
+
+      
+      		<div class="row"><p><a href="shapes.html">shape excersize html</a></p></div>
+  		</div>
+    </section>
+
+     <section id="css">
+     	<div class="container">
+     		<h3>Cascading Style Sheets</h3>
+     		<p>
+     			<a href="shapes.css">shape excersize css</a>
+     		</p>
+     	</div>
+    </section>
+
+    <section id="javascript">
+    	<div class="container">
+    		<h3>JavaScript</h3>
+    	 <p>
+    	 	<a href="shapes.css">shape excersize js</a>
+    	 </p>
+    	</div>
+    </section>
+
+    <section>
+    	<div class="container">
+          <h3>Resources</h3>
+    	    <ul>
+    		  <li><a href="http://www.colorhexa.com/">http://www.colorhexa.com/</a></li>
+    	      <li><a href="https://www.google.com/fonts">https://www.google.com/fonts</a></li>
+    	      <li>
+    	      	<a href="codepen.io">codepen.io</a>
+    	      </li>
+    	      <li>Developer Inspector Tool in the browsers like Chrome and Mozilla</li>
+    	      <li><a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a></li>
+    	          <li><a href="http://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags">http://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags</a></li>
+          </ul>
+    	</div>
+    </section>
+  </body>
+</html>
