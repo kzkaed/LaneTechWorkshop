@@ -30,3 +30,20 @@ function hideAllShapes(start, end) {
     hideShape(start);
   }
 }
+
+function add (x , y) {
+  return x + y;
+}
+
+function buildSentence (adjective, noun, verb, adverb) {
+  return 'The' + adjective + noun + verb + adverb;
+}
+
+function madlib (adjective, noun, verb, adverb) {
+  var sentence = buildSentence(adjective, noun, verb, adverb);
+  document.getElementById("mandlib-sentence").innerHTML = sentence;
+}
+
+function add (x, y) {
+  document.getElementById("add-numbers").innerHTML = add (x, y);
+}

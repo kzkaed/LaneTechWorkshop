@@ -173,6 +173,14 @@ header .container { padding: 2rem 0; }
 
 .note { font-size: .8rem }
 
+/* Gist--*/
+.gist-list { list-style: none; margin: 0; padding: 0; }
+.gist-list__item { margin-bottom: 1rem !important; }
+.gist-list__item:last-of-type { margin-bottom: 0 !important; }
+.gist-file { border: 0 !important; border-radius: 3px !important; overflow: hidden !important; margin-bottom: 0 !important; }
+.gist-data { padding: .5rem 0 !important; }
+.gist-meta { display: none !important; }
+
 /* Utilities =========================================================== */
 .margin-bottom { margin-bottom: 1.5rem; }
 
