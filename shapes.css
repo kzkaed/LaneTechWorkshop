@@ -9,7 +9,7 @@ body {
 }
 
 ul {
-  <!--list-style-type: none;-->
+  /*list-style-type: none;*/
   margin: 0;
   padding: 2px;
 }
@@ -17,8 +17,8 @@ ul {
 li a {
   display: block;
   color: #000;
-  <!--padding: 8px 0 8px 16px;-->
-  <!--text-decoration: none;-->
+/*padding: 8px 0 8px 16px;*/  
+/*text-decoration: none;*/
 }
 
 li a.active {
@@ -27,7 +27,7 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-  background-color: green;
+  background-color: #f4a4e9;
   color: red;
 }
 
@@ -57,12 +57,20 @@ li a:hover:not(.active) {
 }
 
 .triangle{
-  background: #429874;
-  border-radius: 2px;
-  height: 75px;
-  margin: 0 auto;
-  opacity: .8;
-  width: 75px;
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid green;
+ /*border-radius: 2px;*/
+}
+
+.triangle-left {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;  
+  border-right: 5px solid #2f2f2f;
 }
 
 .shape4 {
