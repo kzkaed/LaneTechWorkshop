@@ -190,3 +190,40 @@ header .container { padding: 2rem 0; }
 .row, .container { *zoom: 1; }
 .row:before, .container:before, .row:after, .container:after { content: " "; display: table; }
 .row:after, .container:after { clear: both; }
+
+.main__section {
+  padding-bottom: 1em;
+}
+
+.main__section__title {
+  font-size: 2em;
+}
+
+.section-title {
+  font-size: 1.5em;
+}
+
+.side-nav {
+  /*padding: 2em 1em 1em 1em;*/
+  position: fixed;
+  width: 20%;
+}
+
+@media (min-width: 700px) {
+  .side-nav {
+    padding: 2em 1em 1em 1em;
+  }
+}
+
+.side-nav li {
+  list-style: none;
+}
+
+.side-nav ul {
+  padding-left: 1.5em;
+}
+
+.side-nav__title {
+  font-size: 1.2em;
+}
+
