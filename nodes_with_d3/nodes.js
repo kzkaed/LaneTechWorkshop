@@ -13,9 +13,9 @@ var colors = d3.scale.category20();
 
 var nodes = [
 { name: "Fun Things"},
-{ name: "HTML5", target: [0], value: 55 },
-{ name: "CSS3", target: [0, 1], value: 65 },
-{ name: "Javascript", target: [0, 1, 2, 8], value: 30 },
+{ name: "Node1", target: [0], value: 55 },
+{ name: "Node2", target: [0, 1], value: 65 },
+{ name: "Node3", target: [0, 1, 2, 8], value: 30 },
 ];
 
 var links = [];
