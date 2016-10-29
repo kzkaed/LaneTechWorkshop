@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c2bb655-5b3b-4078-a049-27ba973b3b6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/addons/p5.dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/addons/p5.sound.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lanetech.sublime-project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lanetech.sublime-workspace" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodes_with_d3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodes_with_d3/nodes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodes_with_d3/nodes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sketch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sketch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sketch.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cat.jpeg" afterPath="$PROJECT_DIR$/assets/cat.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="LaneTechWorkshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,17 +22,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="101" />
+            <state relative-caret-position="306">
+              <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -126,6 +112,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -586,14 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -606,6 +585,14 @@
       </provider>
       <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="243" column="4" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
