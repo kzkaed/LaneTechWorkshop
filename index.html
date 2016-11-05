@@ -10,11 +10,26 @@
     <script src="workshop.js"></script>
   </head>
   <body>
+
+  <nav class="side-nav">
+    <h1 class='side-nav__title'>Table of Contents</h1>
+    <ul>
+      <li><a href='#html'>HTML</a></li>
+      <li><a href='#css'>CSS</a></li>
+      <li><a href='#javascript'>Javascript</a></li>
+      <li><a href='#fundamental'>Fundamentals</a></li>
+      <li><a href='#resources'>Resources</a></li>
+    </ul>
+  </nav>
+
     <header>
       <div class="container">
         <h2>Women in CS Workshop at <a href="http://www.lanetech.org/">Lane Tech </a></h2>
-        <h1>Visual Manipulation- Intro into Patterns of Design in Software with HTML, CSS, JavaScript</h1>
-        <h2>(and a few principles of clean code and software quality)</h2>
+
+        <div class='main__section'>
+          <h1 class='main__section__title'>Visual Manipulation- Intro into Patterns of Design in Software with HTML, CSS, JavaScript</h1>
+          <h2>(and a few principles of clean code and software quality)</h2>
+        </div>
 
         <ol>
           <li>Expressive names for variables, functions, or classes</li>
@@ -28,7 +43,7 @@
 
     <section id="html">
       <div class="container">
-        <h3>HTML : Hyper Text Markup Protocol</h3>
+        <h3 class='section-title'>HTML : Hyper Text Markup Protocol</h3>
         <div class="row">
           <h4>1 : HTML</h4>
           <p> HTML is a markup language for describing web documents (web pages). HTML stands for Hyper Text Markup Language. A markup language is a set of markup tags. HTML documents are described by HTML tags. Each HTML tag describes different document content.</p>
@@ -115,7 +130,7 @@
 
     <section id="css">
       <div class="container">
-        <h3>Cascading Style Sheets</h3>
+        <h3 class='section-title'>Cascading Style Sheets</h3>
         <p>
         <a href="shapes.css">shape excersize css</a>
         We will look at:
@@ -126,7 +141,7 @@
 
     <section id="javascript">
       <div class="container">
-        <h3>JavaScript</h3>
+        <h3 class='section-title'>JavaScript</h3>
         <p>Javascript can be client-side or server-side. We are going to play with client-side javascript. For websites, javascript can be used to manipulate the HTML DOM. A few language basics to get you started.</p>
         <article id="variable" class="row">
           <div class="column">
@@ -141,37 +156,28 @@
           </div></article>
 
 
-          <article id="function" class="row">
+        <article id="function" class="row">
+          <h4>function</h4>
+          <div class="row">
+            <code data-gist-id="e14484d2b45c0f6673a9"></code>
+          </div>
+        </article>
 
-            <h4>function</h4>
-
-            <div class="row">
-              <code data-gist-id="e14484d2b45c0f6673a9"></code>
-            </div>
-          </article>
-
-          <article id="document" class="row">
-
+        <article id="document" class="row">
             <h4>Accessing the elements in the html document</h4>
-            <p></p>
+          <div class="row">
+            <code data-gist-id="873fd2c9812bde0bd07a"></code>
+          </div>
+        </article>
 
-            <div class="row">
-              <code data-gist-id="873fd2c9812bde0bd07a"></code>
-            </div>
-          </article>
-
-          <article id="js-debugging" class="row">
+        <article id="js-debugging" class="row">
 
             <h4>simple debugging</h4>
-            <p></p>
 
-            <div class="row">
-              <code data-gist-id="d602108b5f2cc330a19d"></code>
-            </div>
-            <div class="row">
-              <code data-gist-id="a7cab5a003b5ab54e4a2"></code>
-            </div>
-          </article>
+          <div class="row">
+            <code data-gist-id="d602108b5f2cc330a19d"></code>
+          </div>
+
 
           <div class="row">
             <p>Building a menu bar and its interactions. A menu bar is a design pattern that can be used over and over</p>
@@ -183,68 +189,71 @@
     </section>
 
     <section id="fundamental">
-      <div class="container">
-        <article id="variable" class="row">
+    <div class="container">
+      <article id="variable" class="row">
           <div class="row">
-            <h4>Fundamentals - Pattern to recognize across languages</h4>
-            <p>A variable is a memory location attached to a symbolic name which holds a value. It is fundamental across computer languages. In this sense, it is a basic 'pattern' to recognize.</p> <p> Let's look at what the same variables look like in other languages.</p>
+                <h3 class='section-title'>Fundamentals - Patterns to recognize across languages</h3>
+                <p>A variable is a memory location attached to a symbolic name which holds a value. It is fundamental across computer languages. In this sense, it is a basic 'pattern' to recognize.</p> <p> Let's look at what the same variables look like in other languages.</p>
           </div>
           <div class="row">
-            <div class="column">
-              <h5>java</h5>
-              <code data-gist-id="11466f8e7278f2c200c0"></code>
+               <div class="column">
+                <h5>java</h5>
+                <code data-gist-id="11466f8e7278f2c200c0"></code>
+               </div>
+             <div class="column">
+                <h5>ruby</h5>
+                <code data-gist-id="454b91fd4ef45128b5b3"></code>
+              </div>
             </div>
-            <div class="column">
-              <h5>ruby</h5>
-              <code data-gist-id="454b91fd4ef45128b5b3"></code>
+            <div class="row">
+              <div class="column">
+                <h5>clojure</h5>
+                <code data-gist-id="167f732107c419db4666"></code>
+              </div>
+              <div class="column">
+                <h5>scala</h5>
+                <code data-gist-id="9811c73f7f3fd9e8748b"></code>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="column">
-              <h5>clojure</h5>
-              <code data-gist-id="167f732107c419db4666"></code>
-            </div>
-            <div class="column">
-              <h5>scala</h5>
-              <code data-gist-id="9811c73f7f3fd9e8748b"></code>
-            </div>
-          </div>
-        </article>
-        <article id="function-b" class="row">
-          <div class="row">
-            <p>Recognizing functions</p> <p> Let's look at what the same functions look like in other languages. What are the similarities? Differences?</p>
-          </div>
-          <div class="row">
-            <h5>javascript</h5>
-            <code data-gist-id="83220bce887ea37b3c1c"></code>
+      </article>
 
-            <div class="column">
-              <h5>java</h5>
-              <code data-gist-id="f59854ca7e59e9381238"></code>
-            </div>
-            <div class="column">
-              <h5>ruby</h5>
-              <code data-gist-id="306c1eacce20bf1dfa38"></code>
-            </div>
-          </div>
-          <div class="row">
-            <div class="column">
-              <h5>clojure</h5>
-              <code data-gist-id="6948d493df30b747fcdd"></code>
-            </div>
-            <div class="column">
-              <h5>scala</h5>
-              <code data-gist-id="1289c9b299055d9b4f7e"></code>
-            </div>
-          </div>
-        </article></div>
+      <article id="function-b" class="row">
+        <div class="row">
+          <p>Recognizing functions</p> <p> Let's look at what the same functions look like in other languages. What are the similarities? Differences?</p>
+        </div>
+        <div class="row">
+          <h5>javascript</h5>
+          <code data-gist-id="83220bce887ea37b3c1c"></code>
 
+          <div class="column">
+            <h5>java</h5>
+            <code data-gist-id="f59854ca7e59e9381238"></code>
+          </div>
+          <div class="column">
+            <h5>ruby</h5>
+            <code data-gist-id="306c1eacce20bf1dfa38"></code>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <h5>clojure</h5>
+            <code data-gist-id="6948d493df30b747fcdd"></code>
+          </div>
+          <div class="column">
+            <h5>scala</h5>
+            <code data-gist-id="1289c9b299055d9b4f7e"></code>
+          </div>
+        </div>
+      </article>
+
+    </div>
     </section>
+
 
     <section id="resources">
       <div class="container">
 
-        <h3>Resources</h3>
+        <h3 class='section-title'>Resources</h3>
         <ul>
           <li><a href="http://www.8thlight.com/">8thlight.com</a></li>
           <li><a href="http://www.colorhexa.com/">http://www.colorhexa.com/</a></li>
@@ -252,7 +261,7 @@
           <li>
             <a href="codepen.io">codepen.io</a>
           </li>
-          <li>Developer Inspector Tool in the browsers like Chrome and Mozilla</li>
+          
           <li><a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a></li>
           <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document">https://developer.mozilla.org/en-US/docs/Web/API/Document</a></li>
           <li><a href="http://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags">http://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags</a></li>
