@@ -17,6 +17,25 @@ h2 {
   margin: 0;
 }
 
+
+.nav {
+  background-color: blue;
+  width: 100%;
+}
+
+.main-nav__item {
+  color: white;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav__item--current {
+  font-weight: 500;
+}
+
+
 ul {
   /*list-style-type: none;*/
   margin: 0;
