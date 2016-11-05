@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c2bb655-5b3b-4078-a049-27ba973b3b6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cat.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/LaneTechWorkshop.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lanetech.sublime-project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lanetech.sublime-workspace" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodes_with_d3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodes_with_d3/nodes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodes_with_d3/nodes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p5_sketches/addons/p5.dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p5_sketches/addons/p5.sound.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p5_sketches/p5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p5_sketches/p5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p5_sketches/sketch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p5_sketches/sketch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/p5_sketches/sketch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sketch.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shapes.css" afterPath="$PROJECT_DIR$/shapes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shapes.html" afterPath="$PROJECT_DIR$/shapes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LaneTechWorkshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="263" column="10" selection-start-line="263" selection-start-column="10" selection-end-line="263" selection-end-column="10" />
+            <state relative-caret-position="144">
+              <caret line="214" column="65" selection-start-line="214" selection-start-column="65" selection-end-line="214" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -107,8 +81,8 @@
       <file leaf-file-name="workshop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workshop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -685,22 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workshop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workshop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -731,10 +689,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/workshop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="263" column="10" selection-start-line="263" selection-start-column="10" selection-end-line="263" selection-end-column="10" />
+        <state relative-caret-position="144">
+          <caret line="214" column="65" selection-start-line="214" selection-start-column="65" selection-end-line="214" selection-end-column="65" />
           <folding />
         </state>
       </provider>
