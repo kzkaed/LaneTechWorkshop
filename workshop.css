@@ -191,6 +191,7 @@ header .container { padding: 2rem 0; }
 .row:before, .container:before, .row:after, .container:after { content: " "; display: table; }
 .row:after, .container:after { clear: both; }
 
+.ma
 .main__section {
   padding-bottom: 1em;
 }
@@ -226,4 +227,3 @@ header .container { padding: 2rem 0; }
 .side-nav__title {
   font-size: 1.2em;
 }
-
